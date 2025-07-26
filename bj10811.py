@@ -10,9 +10,10 @@ for i in range(m):
         # temp = a[i-1]
         # a[i-1] = a[j-1]
         # a[j-1] = temp
-        for k in range(i,j+1):
-            l.append(a[k-1])
-        l = l[::-1]
-        for u in range(i,j+1):
-            a.insert((u-1),l[k-1])
+        # for k in range(i,j+1):
+        #     l.append(a[k-1])
+        # l = l[::-1]
+        # for u in range(i,j+1):
+        #     a.insert((u-1),l[k-1])
+        a = a
 print(*a)
